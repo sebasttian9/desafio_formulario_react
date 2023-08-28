@@ -1,7 +1,7 @@
 
 const SocialButton = () => {
   return (
-    <div>SocialButton</div>
+    <div className="mt-2">SocialButton</div>
   )
 }
 
