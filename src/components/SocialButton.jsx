@@ -1,7 +1,11 @@
 
-const SocialButton = () => {
+const SocialButton = ({face,github,link}) => {
   return (
-    <div className="mt-2">SocialButton</div>
+    <div className="my-3 redesSociales">
+      <div>{face}</div>
+      <div>{github}</div>
+      <div>{link}</div>
+    </div>
   )
 }
 

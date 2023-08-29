@@ -61,3 +61,13 @@ body {
   background-color: white;
   /* text-align: center; */
 }
+.redesSociales {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.redesSociales div {
+  border-radius: 50px;
+  border: 0.5px solid black;
+  padding: 0.7rem;
+}
