@@ -34,6 +34,7 @@ const Formulario = () => {
 
   const validar = (e) => {
     
+    setExito(false);
     e.preventDefault(); 
 
     if(nombre=='' || contra == '' || correo=='' || confirma == ''){
